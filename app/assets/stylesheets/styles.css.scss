@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+
+body {
+  background-image:url('noisy_grid.png');
+  background-repeat:  repeat;
+
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Bree Serif'
+}
+
+#header {
+  -moz-box-shadow:    0px 10px 5px #888;
+  -webkit-box-shadow: 0px 10px 5px #888;
+  box-shadow:         0px 10px 80px #888;
+  background-color:rgba(0, 0, 0, 0.3);
+}
+
+#hero {
+  background-color:rgba(0, 0, 0, 0.7);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  img {
+    /*opacity: 0.9;*/
+    
+  }
+}
+
+#main {
+  box-shadow: -0px -10px 80px #555; 
+  background-color:rgba(0, 0, 0, 0.3);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#projects {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  img {
+    vertical-align: center; 
+    border-style: dashed;
+    border-width: 2px;
+    /*border-color: rgba(0, 0, 0, 0.5);*/
+    -moz-box-shadow:    0px 10px 30px #888;
+    -webkit-box-shadow: 0px 10px 30px #888;
+    box-shadow:         0px 10px 30px #888;
+  }
+}

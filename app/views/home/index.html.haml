@@ -1,0 +1,39 @@
+
+
+#header
+  .container
+    %ul.nav.nav-pills.pull-right
+      %li.active= link_to("About Me", "#")
+      %li= link_to("My Work", "#")
+      %li= link_to("Contact Me", "#")
+
+#hero
+  .container
+    .row
+      %div= image_tag( "hero_graphic.png" )
+#main
+  .container
+    .row
+      #about.span6
+        %h1 I DESIGN THINGS.
+        %p I work relentlessly to create better experiences through design.  I set measurable goals and focus on achieving results.
+        %h4 LETS TALK ABOUT YOUR BUSINESS GOALS.
+      #services.span4.pull-right
+        %h3 AFFORDABLE SERVICES
+        %ul
+          %li Custom Website Design & Development
+          %li Content Management Systems (CMS)
+          %li Web Hosting
+          %li Logo & Graphics Design
+          %li Photography
+    .row
+      #projects
+        %h2.span12 Projects
+        .row
+          .span6
+            %h4 AJW Photography
+            = image_tag( "site_ajwphotography.jpg" )
+          %h3 
+            %em More Coming Soon...
+
+#footer
